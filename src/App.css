@@ -15,7 +15,7 @@
 .main {
   width: 75%;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #020230),
-    url(../src/assets/images/kbc.avif) center;
+    url(../src/assets/images/kbc.avif) center no-repeat;
   display: flex;
   flex-direction: column;
 }
@@ -161,4 +161,56 @@
 .money_list_item_amount {
   font-size: 20px;
   font-weight: 300;
+}
+
+.earnedMoney {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.start {
+  width: 250px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.start_input {
+  font-size: 20px;
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.start_input:focus {
+  outline: none;
+}
+
+.start_button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.start_button:hover {
+  background: green;
+  color: white;
+  font-weight: 500;
 }
